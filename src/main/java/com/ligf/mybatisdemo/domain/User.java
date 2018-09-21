@@ -13,6 +13,16 @@ public class User {
 	private String phoneNum;
 	
 	private String address;
+	
+	private UserRole userRole;
+
+	public UserRole getUserRole() {
+		return userRole;
+	}
+
+	public void setUserRole(UserRole userRole) {
+		this.userRole = userRole;
+	}
 
 	public int getId() {
 		return id;
